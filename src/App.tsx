@@ -20,25 +20,16 @@ const App: React.FC = () => {
           </div>
         </div>
       </div>
-      {/* <Header>
-        <div className="nav">
-          <Menu
-            theme="dark"
-            mode="horizontal"
-            defaultSelectedKeys={['1']}
-            style={{ lineHeight: '64px' }}
-          >
-            <Menu.Item key="1">Projects</Menu.Item>
-            <Menu.Item key="2">Resume</Menu.Item>
-          </Menu>
-        </div>
-      </Header>
-      <Content style={{ background: '#fff' }}>
-        <div className="content">Content</div>
-      </Content>
-      <Footer style={{ textAlign: 'center' }}>
-        © 2019 Created by Brandon Dong
-      </Footer> */}
+      <div className="nav">
+        <Menu
+          mode="horizontal"
+          defaultSelectedKeys={['1']}
+          style={{ lineHeight: '48px' }}
+        >
+          <Menu.Item key="1">Projects</Menu.Item>
+          <Menu.Item key="2">Resume</Menu.Item>
+        </Menu>
+      </div>
     </Layout>
   );
 };
