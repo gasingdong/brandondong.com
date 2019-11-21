@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Layout, Menu, Breadcrumb, Icon, Avatar } from 'antd';
-import './App.css';
 import Photo from './assets/avatar.jpg';
 
 const { Header, Content, Footer } = Layout;
