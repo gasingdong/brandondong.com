@@ -1,0 +1,12 @@
+.nav {
+  background-color: $primary-color;
+  
+  ul {
+    @include flex();
+  }
+
+  li {
+    list-style-type: none;
+    color: $white;
+  }
+}
