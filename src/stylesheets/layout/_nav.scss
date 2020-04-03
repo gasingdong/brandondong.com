@@ -10,8 +10,22 @@
 
   li {
     list-style-type: none;
-    color: $white;
     margin: auto;
-    opacity: 0.6;
+
+    a {
+      color: $white;
+      opacity: 0.6;
+      text-decoration: none;
+
+      &:hover {
+        opacity: 1;
+        font-weight: bold;
+      }
+    }
+
+    .nav__active {
+      opacity: 1;
+      font-weight: bold;
+    }
   }
 }
