@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the projects page.
+// -----------------------------------------------------------------------------
+
+.projects {
+  margin: 20px 3%;
+}
+
+.project {
+  b {
+    color: $tertiary-color;
+  }
+  &__header {
+    @include flex(column, center, center);
+  }
+  &__title {
+    color: $tertiary-color;
+  }
+  &__links {
+    width: 100%;
+    @include flex(row, space-between, center);
+  }
+  &__link {
+    margin: 0 1%;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 14px;
+    border: 2px $tertiary-color solid;
+    border-radius: 6px;
+    background-color: $tertiary-color;
+    color: $white;
+    font-weight: bold;
+    font-size: 0.8rem;
+
+    &:hover {
+      background-color: $secondary-color;
+      border-color: $secondary-color;
+    }
+
+    &--tech {
+      margin: 5px 1%;
+      text-decoration: none;
+      text-align: center;
+      padding: 10px 14px;
+      border: 2px $tertiary-color solid;
+      border-radius: 6px;
+      background-color: $white;
+      color: $tertiary-color;
+      font-weight: bold;
+      font-size: 0.8rem;
+
+      &:hover {
+        color: $secondary-color;
+        border-color: $secondary-color;
+      }
+    }
+  }
+  &__details {
+    padding: 20px 2%;
+    line-height: 1.4rem;
+  }
+  &__description {
+    text-align: justify;
+    padding-bottom: 20px;
+  }
+  &__role {
+    padding-bottom: 10px;
+  }
+  &__tech {
+    width: 100%;
+    @include flex(row, space-between, center);
+    flex-wrap: wrap;
+  }
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Nav from './components/Nav';
-import Projects from './components/Projects';
+import Projects from './components/ProjectsPage';
 import Resume from './components/Resume';
 
 const App: React.FC = () => {
