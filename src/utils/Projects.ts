@@ -26,6 +26,7 @@ const PROJECTS: ProjectsModel = {
       TechModel.JAVASCRIPT.value,
       TechModel.EXPRESS.value,
     ],
+    thumbnail: 'allegiance_thumbnail.jpg',
   },
 };
 

@@ -8,6 +8,7 @@ export interface ProjectModel {
   role: Role;
   description: string;
   tech: MetaLinkModel[];
+  thumbnail: string;
 }
 
 export interface MetaLinkModel {
