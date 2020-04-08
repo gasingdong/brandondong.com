@@ -11,8 +11,8 @@ const Nav: React.FC = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/resume" activeClassName="nav__active">
-            RESUME
+          <NavLink to="/about" activeClassName="nav__active">
+            ABOUT ME
           </NavLink>
         </li>
       </ul>
