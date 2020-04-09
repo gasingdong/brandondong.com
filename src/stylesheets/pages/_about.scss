@@ -7,3 +7,11 @@
     font-size: 1.6rem;
   }
 }
+
+.skills {
+  &__buttons {
+    width: 100%;
+    @include flex(row, space-between, center);
+    flex-wrap: wrap;
+  }
+}

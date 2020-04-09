@@ -24,6 +24,8 @@ export enum Role {
 }
 
 export class TechModel {
+  static readonly VALUES: TechModel[] = [];
+
   static readonly REACT = new TechModel('React', {
     name: 'React.js',
     link: 'https://reactjs.org/',
@@ -62,7 +64,9 @@ export class TechModel {
   private constructor(
     private readonly key: string,
     public readonly value: MetaLinkModel
-  ) {}
+  ) {
+    TechModel.VALUES.push(this);
+  }
 
   toString(): string {
     return this.key;
