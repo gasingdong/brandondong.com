@@ -28,6 +28,28 @@ const PROJECTS: ProjectsModel = {
     ],
     thumbnail: 'allegiance_thumbnail.jpg',
   },
+  TRIPSPLIT: {
+    title: 'Trip Splitter',
+    links: [
+      {
+        name: 'Live Docs',
+        link: 'https://bd-trip-split.herokuapp.com/api/docs/',
+      },
+      {
+        name: 'GitHub',
+        link: 'https://github.com/Build-Week-Trip-Split-FT/Back-End',
+      },
+    ],
+    role: Role.BACK_END,
+    description:
+      "A web app for tracking and splitting expenses among multiple travelers. As the back-end developer, I used Node.js/Express.js to build an API server for the project's front-end developers and wrote full documentation of all endpoints using apiDoc.",
+    tech: [
+      TechModel.EXPRESS.value,
+      TechModel.NODE.value,
+      TechModel.TYPESCRIPT.value,
+    ],
+    thumbnail: 'tripsplit_thumbnail.png',
+  },
 };
 
 export default PROJECTS;

@@ -61,6 +61,11 @@ export class TechModel {
     link: 'https://www.javascript.com/',
   });
 
+  static readonly TYPESCRIPT = new TechModel('Typescript', {
+    name: 'Typescript',
+    link: 'https://www.typescriptlang.org/',
+  });
+
   private constructor(
     private readonly key: string,
     public readonly value: MetaLinkModel
