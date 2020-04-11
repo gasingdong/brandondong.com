@@ -36,9 +36,9 @@ export class TechModel {
     link: 'https://redux.js.org/',
   });
 
-  static readonly HTML5 = new TechModel('HTML5', {
-    name: 'HTML5',
-    link: 'https://en.wikipedia.org/wiki/HTML5',
+  static readonly HTML = new TechModel('HTML', {
+    name: 'HTML',
+    link: 'https://en.wikipedia.org/wiki/HTML',
   });
 
   static readonly CSS = new TechModel('CSS', {
@@ -64,6 +64,16 @@ export class TechModel {
   static readonly TYPESCRIPT = new TechModel('Typescript', {
     name: 'Typescript',
     link: 'https://www.typescriptlang.org/',
+  });
+
+  static readonly PYTHON = new TechModel('Python', {
+    name: 'Python',
+    link: 'https://www.python.org/',
+  });
+
+  static readonly JAVA = new TechModel('Java', {
+    name: 'Java',
+    link: 'https://go.java/',
   });
 
   private constructor(

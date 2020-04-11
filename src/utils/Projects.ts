@@ -23,7 +23,7 @@ const PROJECTS: ProjectsModel = {
     tech: [
       TechModel.REACT.value,
       TechModel.REDUX.value,
-      TechModel.HTML5.value,
+      TechModel.HTML.value,
       TechModel.CSS.value,
       TechModel.JAVASCRIPT.value,
       TechModel.EXPRESS.value,
@@ -68,7 +68,7 @@ const PROJECTS: ProjectsModel = {
     description:
       'An SPA that displays subreddit data from Reddit for a specified time period. As the front-end developer, I worked with the data science team to hook their back-end server data visualization to a front-end dashboard using React, Material UI, and Styled Components.',
     tech: [
-      TechModel.HTML5.value,
+      TechModel.HTML.value,
       TechModel.CSS.value,
       TechModel.REACT.value,
       TechModel.JAVASCRIPT.value,
