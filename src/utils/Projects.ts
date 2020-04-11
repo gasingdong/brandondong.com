@@ -23,6 +23,8 @@ const PROJECTS: ProjectsModel = {
     tech: [
       TechModel.REACT.value,
       TechModel.REDUX.value,
+      TechModel.HTML5.value,
+      TechModel.CSS.value,
       TechModel.JAVASCRIPT.value,
       TechModel.EXPRESS.value,
     ],
@@ -49,6 +51,29 @@ const PROJECTS: ProjectsModel = {
       TechModel.TYPESCRIPT.value,
     ],
     thumbnail: 'tripsplit_thumbnail.png',
+  },
+  BETTERSUBSTATS: {
+    title: 'Better Sub Stats',
+    links: [
+      {
+        name: 'Live',
+        link: 'https://bettersubstats.netlify.com/',
+      },
+      {
+        name: 'GitHub',
+        link: 'https://github.com/sub-stats/front-end',
+      },
+    ],
+    role: Role.FRONT_END,
+    description:
+      'An SPA that displays subreddit data from Reddit for a specified time period. As the front-end developer, I worked with the data science team to hook their back-end server data visualization to a front-end dashboard using React, Material UI, and Styled Components.',
+    tech: [
+      TechModel.HTML5.value,
+      TechModel.CSS.value,
+      TechModel.REACT.value,
+      TechModel.JAVASCRIPT.value,
+    ],
+    thumbnail: 'bettersubstats_thumbnail.png',
   },
 };
 
