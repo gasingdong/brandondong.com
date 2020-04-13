@@ -13,14 +13,16 @@ const App: React.FC = () => {
         <ScrollToTop />
         <Header />
         <Nav />
-        <Switch>
-          <Route exact path="/">
-            <Projects />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-        </Switch>
+        <div className="page">
+          <Switch>
+            <Route exact path="/">
+              <Projects />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+          </Switch>
+        </div>
       </div>
     </Router>
   );
