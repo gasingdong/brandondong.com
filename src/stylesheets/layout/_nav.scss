@@ -1,9 +1,14 @@
 .nav {
+  height: 45px;
+  position: sticky;
+  top: -1px;
   background-color: $primary-color;
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+  @include flex();
 
   ul {
     @include flex();
+    width: 100%;
     margin: 0;
     padding: 10px;
   }
