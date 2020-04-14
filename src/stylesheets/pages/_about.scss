@@ -11,5 +11,8 @@
     width: 100%;
     @include flex(row, space-between, center);
     flex-wrap: wrap;
+    @include for-tablet-up {
+      @include flex(row, flex-start, center);
+    }
   }
 }

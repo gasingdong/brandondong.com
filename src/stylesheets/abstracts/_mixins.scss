@@ -7,3 +7,15 @@
   justify-content: $justify-content;
   align-items: $align-items;
 }
+
+@mixin for-tablet-up {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin for-desktop-up {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}

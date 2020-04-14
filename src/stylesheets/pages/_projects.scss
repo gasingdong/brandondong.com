@@ -18,6 +18,9 @@
   &__links {
     width: 100%;
     @include flex(row, space-between, center);
+    @include for-tablet-up {
+      @include flex(row, center, center);
+    }
   }
   &__link {
     margin: 0 1%;
@@ -69,6 +72,10 @@
     width: 100%;
     @include flex(row, space-between, center);
     flex-wrap: wrap;
+
+    @include for-tablet-up {
+      @include flex(row, center, center);
+    }
   }
   &__thumbnail {
     width: 100%;
