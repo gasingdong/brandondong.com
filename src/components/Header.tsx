@@ -37,19 +37,17 @@ const Header: React.FC = () => {
   return (
     <header className="header">
       <img className="avatar" src={Photo} alt="headshot" />
-      <div className="title">
-        <h1 className="title__name">BRANDON DONG</h1>
-        <h2 className="title__role">FULL-STACK WEB DEVELOPER</h2>
-        <div className="title__icons">
-          {contacts.map(contact => (
-            <SocialIcon
-              key={contact.url}
-              url={contact.url}
-              Icon={contact.icon}
-              download={contact.download}
-            />
-          ))}
-        </div>
+      <div className="name">BRANDON DONG</div>
+      <div className="title">FULL-STACK WEB DEVELOPER</div>
+      <div className="socialicons">
+        {contacts.map(contact => (
+          <SocialIcon
+            key={contact.url}
+            url={contact.url}
+            Icon={contact.icon}
+            download={contact.download}
+          />
+        ))}
       </div>
     </header>
   );

@@ -11,7 +11,7 @@ const SocialIcon: React.FC<SocialIconProps> = (props: SocialIconProps) => {
   const { url, Icon, download } = props;
 
   return (
-    <a className="title__icon" href={url} download={download}>
+    <a href={url} download={download}>
       <Icon />
     </a>
   );
