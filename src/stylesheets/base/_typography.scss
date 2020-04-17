@@ -4,4 +4,8 @@
 
 body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
+
+  @include for-desktop-up {
+    font-size: 1.2rem;
+  }
 }
