@@ -1,14 +1,16 @@
 import React from 'react';
 import Intro from './Intro';
 import Skills from './Skills';
+import Projects from './Projects';
 
-const About: React.FC = () => {
+const Content: React.FC = () => {
   return (
-    <div className="about">
+    <div className="content">
       <Intro />
       <Skills />
+      <Projects />
     </div>
   );
 };
 
-export default About;
+export default Content;

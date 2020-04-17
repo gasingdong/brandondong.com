@@ -1,0 +1,44 @@
+.project {
+  padding-bottom: 10px;
+  border-bottom: 2px solid $tertiary-color;
+
+  b {
+    color: $tertiary-color;
+  }
+  &__header {
+    @include flex(column, center, center);
+  }
+  &__title {
+    color: $tertiary-color;
+  }
+  &__details {
+    padding: 20px 2%;
+    line-height: 1.4rem;
+  }
+  &__description {
+    text-align: justify;
+    padding-bottom: 20px;
+  }
+  &__role {
+    padding-bottom: 10px;
+  }
+  &__tech {
+    width: 100%;
+    @include flex(row, space-between, center);
+    flex-wrap: wrap;
+
+    @include for-tablet-up {
+      @include flex(row, center, center);
+    }
+  }
+  &__thumbnail {
+    width: 100%;
+    margin: 20px 0;
+
+    img {
+      width: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+}

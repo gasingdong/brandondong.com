@@ -5,11 +5,11 @@ const Skills: React.FC = () => {
   return (
     <div className="skills">
       <h1>I&apos;m proficient in...</h1>
-      <div className="skills__buttons">
+      <div className="buttons">
         {TechModel.VALUES.map(element => (
           <a
             key={element.value.name}
-            className="project__link--tech"
+            className="button button--secondary"
             href={element.value.link}
           >
             {element.value.name}

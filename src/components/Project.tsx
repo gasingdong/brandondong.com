@@ -10,10 +10,10 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
   return (
     <div className="project">
       <div className="project__header">
-        <h1 className="project__title">{project.title}</h1>
-        <div className="project__links">
+        <h2 className="project__title">{project.title}</h2>
+        <div className="buttons">
           {project.links.map(element => (
-            <a key={element.name} className="project__link" href={element.link}>
+            <a key={element.name} className="button" href={element.link}>
               {element.name}
             </a>
           ))}
@@ -24,11 +24,11 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
           <b>Role:</b> {project.role}
         </div>
         <div className="project__description">{project.description}</div>
-        <div className="project__tech">
+        <div className="buttons">
           {project.tech.map(element => (
             <a
               key={element.name}
-              className="project__link--tech"
+              className="button button--secondary"
               href={element.link}
             >
               {element.name}
