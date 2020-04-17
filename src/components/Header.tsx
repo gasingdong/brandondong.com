@@ -1,5 +1,11 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import {
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+  FaEnvelope,
+  FaFileDownload,
+} from 'react-icons/fa';
 import SocialIcon from './SocialIcon';
 import Photo from '../assets/avatar.jpg';
 
@@ -20,6 +26,11 @@ const contacts = [
     url: 'mailto:contact@brandondong.com',
     icon: FaEnvelope,
   },
+  {
+    url: '/files/BrandonDongResume.pdf',
+    icon: FaFileDownload,
+    download: true,
+  },
 ];
 
 const Header: React.FC = () => {
@@ -35,6 +46,7 @@ const Header: React.FC = () => {
               key={contact.url}
               url={contact.url}
               Icon={contact.icon}
+              download={contact.download}
             />
           ))}
         </div>
