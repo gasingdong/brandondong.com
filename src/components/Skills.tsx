@@ -3,8 +3,8 @@ import { TechModel } from '../utils/Models';
 
 const Skills: React.FC = () => {
   return (
-    <div className="skills">
-      <h1>I&apos;m proficient in...</h1>
+    <div className="skills" id="skills">
+      <h1>Tech Stack</h1>
       <div className="buttons">
         {TechModel.VALUES.map(element => (
           <a

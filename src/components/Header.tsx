@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import {
   FaGithub,
   FaLinkedin,
@@ -39,6 +40,25 @@ const Header: React.FC = () => {
       <img className="avatar" src={Photo} alt="headshot" />
       <div className="name">BRANDON DONG</div>
       <div className="title">FULL-STACK WEB DEVELOPER</div>
+      <nav className="nav">
+        <ul>
+          <li>
+            <Link activeClass="active" to="about" spy smooth duration={500}>
+              ABOUT
+            </Link>
+          </li>
+          <li>
+            <Link activeClass="active" to="skills" spy smooth duration={500}>
+              TECH
+            </Link>
+          </li>
+          <li>
+            <Link activeClass="active" to="projects" spy smooth duration={500}>
+              PROJECTS
+            </Link>
+          </li>
+        </ul>
+      </nav>
       <div className="socialicons">
         {contacts.map(contact => (
           <SocialIcon
