@@ -37,7 +37,10 @@ const Project: React.FC<ProjectProps> = (props: ProjectProps) => {
         </div>
       </div>
       <div className="project__thumbnail">
-        <img src={`/images/${project.thumbnail}`} alt="project thumbnail" />
+        <img
+          src={`/images/${project.thumbnail}`}
+          alt={`${project.title} thumbnail`}
+        />
       </div>
     </div>
   );

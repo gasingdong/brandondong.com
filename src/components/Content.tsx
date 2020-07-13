@@ -6,7 +6,7 @@ import Projects from './Projects';
 const Content: React.FC = () => {
   return (
     <div className="content-wrapper">
-      <div className="content">
+      <div role="main" className="content">
         <Intro />
         <Skills />
         <Projects />
