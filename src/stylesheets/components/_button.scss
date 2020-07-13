@@ -22,7 +22,8 @@
   color: $white;
   font-weight: bold;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: $secondary-color;
     border-color: $secondary-color;
   }
@@ -31,7 +32,8 @@
     background-color: $white;
     color: $tertiary-color;
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: $secondary-color;
       border-color: $secondary-color;
       background-color: $white;
