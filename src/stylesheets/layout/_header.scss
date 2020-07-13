@@ -56,11 +56,11 @@
 
     li {
       list-style: none;
-      opacity: 0.6;
+      color: rgba($white, 0.6);
       cursor: pointer;
 
       &:hover {
-        opacity: 1;
+        color: rgba($white, 1);
       }
     }
   }
@@ -120,21 +120,5 @@
     &:focus {
       opacity: 1;
     }
-
-    &:focus {
-      animation: pulse 1s infinite;
-    }
-  }
-}
-
-@keyframes pulse {
-  0% {
-    opacity: 0.6;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.6;
   }
 }

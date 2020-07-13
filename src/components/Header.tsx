@@ -44,17 +44,17 @@ const Header: React.FC = () => {
         <ul>
           <li>
             <Link activeClass="active" to="about" spy smooth duration={500}>
-              ABOUT
+              <button type="button">ABOUT</button>
             </Link>
           </li>
           <li>
             <Link activeClass="active" to="skills" spy smooth duration={500}>
-              TECH
+              <button type="button">TECH</button>
             </Link>
           </li>
           <li>
             <Link activeClass="active" to="projects" spy smooth duration={500}>
-              PROJECTS
+              <button type="button">PROJECTS</button>
             </Link>
           </li>
         </ul>
