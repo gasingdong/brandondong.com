@@ -6,15 +6,15 @@ const PROJECTS: ProjectsModel = {
     links: [
       {
         name: 'Live',
-        link: 'https://www.allegiance17.com',
+        link: 'https://allegiance-demo.netlify.app/',
       },
       {
         name: 'FE GitHub',
-        link: 'https://github.com/Lambda-School-Labs/allegiance-fe',
+        link: 'https://github.com/gasingdong/allegiance-fe',
       },
       {
         name: 'BE GitHub',
-        link: 'https://github.com/Lambda-School-Labs/allegiance-be',
+        link: 'https://github.com/gasingdong/allegiance-be',
       },
     ],
     role: Role.FULL_STACK,
